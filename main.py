@@ -557,7 +557,8 @@ if st.session_state.current_list and st.session_state.current_list in st.session
                         if task["completed"]:
                             st.markdown(
                                 f"""<div class="{priority_class}">
-                                    <p class="task-completed">✅ <s>{task['emoji']} {task['text']}</s></p>
+                                    <p class="task-completed">✅ {task['emoji']} {task['text']}
+                                    </p>
                                     <p><small>Completed: {task.get('completed_at', 'Just now')} (Priority: {task['priority']})</small></p>
                                 </div>""",
                                 unsafe_allow_html=True
@@ -596,11 +597,9 @@ if st.session_state.current_list and st.session_state.current_list in st.session
                     pass
         with cols[3]:
             if st.button("Clear All Tasks", type="primary", use_container_width=True):
-                st.warning("This will delete ALL tasks in this list. Continue?")
-                if st.button("Confirm Delete All", type="primary"):
-                    st.session_state.lists[st.session_state.current_list]["tasks"] = []
-                    save_data()
-                    st.rerun()
+                st.session_state.lists[st.session_state.current_list]["tasks"] = []
+                save_data()
+                st.rerun()
         
         # Priority distribution chart
         if total_tasks > 0:
