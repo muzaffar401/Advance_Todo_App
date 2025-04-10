@@ -1,8 +1,12 @@
 
 # 🚀 Advanced To-Do App with Streamlit
 
-![App Screenshot](https://via.placeholder.com/800x500.png?text=Advanced+To-Do+App+Screenshot)  
-*(Replace with actual screenshot)*
+![image](https://github.com/user-attachments/assets/5c8380f0-70d3-403e-8ddc-46030fdf4b20)
+
+![image](https://github.com/user-attachments/assets/c8e3a27e-a312-4e80-af58-b4f59fa313ed)
+
+![image](https://github.com/user-attachments/assets/30259d63-5d3f-44db-ac4d-c631963d6656)
+
 
 A feature-rich, secure, and visually appealing task management application built with Streamlit that helps you organize your life with style!
 
