@@ -170,7 +170,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-Your Name - your.email@example.com  
+Your Name - ma9400667@gmail.com  
 Project Link: [https://github.com/muzaffar401/Advance_Todo_App](https://github.com/muzaffar401/Advance_Todo_App)
 
 ---
