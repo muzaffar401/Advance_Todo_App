@@ -106,10 +106,10 @@ graph TD
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/advanced-todo-app.git
-cd advanced-todo-app
+git clone https://github.com/muzaffar401/Advance_Todo_App.git
+cd Advance_Todo_App
 pip install -r requirements.txt
-streamlit run todo_app.py
+streamlit run main.py
 ```
 
 ## 🧑‍💻 Usage Guide
@@ -171,7 +171,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 📧 Contact
 
 Your Name - your.email@example.com  
-Project Link: [https://github.com/yourusername/advanced-todo-app](https://github.com/yourusername/advanced-todo-app)
+Project Link: [https://github.com/muzaffar401/Advance_Todo_App](https://github.com/muzaffar401/Advance_Todo_App)
 
 ---
 
